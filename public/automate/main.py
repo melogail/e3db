@@ -111,9 +111,6 @@ while continue_collecting:
                                      headers={'Accept': 'application/json; charset=utf8',
                                               'Authorization': 'Bearer ' + access_token})
 
-
-
-
         elif search_type == 2:
             flag = True
             group_flag = False
@@ -132,7 +129,6 @@ while continue_collecting:
 
             group_obj.get_group_information().scrape_members().scrape_other_members().collect_users_data()
             group_obj.driver.quit()
-            print(group_obj.data)
 
             # Collect group
 
@@ -142,4 +138,6 @@ while continue_collecting:
         answer = input('\nDo you like to collect more data? [Y][n]')
     if answer != 'y' and answer != 'Y':
         continue_collecting = False
+        print("\n ")
+        print(' Thank you for using E3mel Business Database Service '.center(60, '*'))
 

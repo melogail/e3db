@@ -1,0 +1,4144 @@
+
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+
+
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+   Error 
+
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+   Error 
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+
+      [2m+18 vendor frames [22m      Illuminate\Foundation\Console\Kernel::handle()
+
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+   Error 
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+  Class 'Aws\Sqs\SqsClient' not found
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+  Class 'Aws\Sqs\SqsClient' not found
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+
+      [2m+18 vendor frames [22m  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+   Error 
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/facebooker/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? '', $config['suffix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+      [2m+18 vendor frames [22m
+  19  /var/www/facebooker/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+[2021-06-08 11:49:57][23U8x7hyIe0EKkYgDIn6QpO5jNXYJc84] Processing: App\Jobs\GetUserDetails
+[2021-06-08 11:51:06][23U8x7hyIe0EKkYgDIn6QpO5jNXYJc84] Processed:  App\Jobs\GetUserDetails
