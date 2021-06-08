@@ -48,9 +48,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{{route('frontend.home')}}">Search User Data</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{route('frontend.search.batch.post')}}">Search Post</a>
-                    </li>
+{{--                    <li class="nav-item">--}}
+{{--                        <a class="nav-link" href="{{route('frontend.search.batch.post')}}">Search Post</a>--}}
+{{--                    </li>--}}
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle active" id="homeDropdownMenuLink" href="#"
                            data-toggle="dropdown" aria-haspopup="true"
