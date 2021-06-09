@@ -1,5 +1,10 @@
 <?php
 
+use App\Http\Controllers\Admin\AgentsController;
+use App\Http\Controllers\Admin\DashboardController;
+use App\Http\Controllers\Frontend\BatchSearchController;
+use App\Http\Controllers\Frontend\FbUsersController;
+use App\Http\Controllers\Frontend\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,14 +24,17 @@ use Illuminate\Support\Facades\Route;
  * ==================================================
  */
 Route::name('frontend.')->middleware(['web', 'auth'])->group( function () {
-    Route::get('/', 'Frontend\HomeController@index')->name('home');
-    Route::get('search', 'Frontend\FbUsersController@search')->name('search');
-    Route::get('search/details/{fb_id}', 'Frontend\FbUsersController@userDetails')->name('search.details');
+    Route::get('/', [HomeController::class,'index'])->name('home');
+    Route::get('search', [FbUsersController::class,'search'])->name('search');
+    Route::get('search/details/{fb_id}', [FbUsersController::class,'userDetails'])->name('search.details');
 
     // Batch search
-    Route::get('search/batch/post', 'Frontend\BatchSearchController@postSearch')->name('search.batch.post');
-    Route::get('search/batch/group', 'Frontend\BatchSearchController@groupSearch')->name('search.batch.group');
+    Route::get('search/batch/post', [BatchSearchController::class, 'postSearch'])->name('search.batch.post');
+    Route::get('search/batch/group', [BatchSearchController::class, 'groupSearch'])->name('search.batch.group');
 
+    // Download Facebook Collector Tool Link
+    Route::get('downloads/facebook-collector', [HomeController::class, 'downloadFacebookCollector'])->name('downloads.facebook_collector');
+    Route::get('downloads/facebook-collector/download', [HomeController::class, 'downloadFb'])->name('download.facebook_collector.download');
 });
 
 /*
@@ -35,15 +43,15 @@ Route::name('frontend.')->middleware(['web', 'auth'])->group( function () {
  * ==================================================
  */
 Route::name('admin.')->prefix('admin')->middleware(['web', 'auth', 'is_admin'])->group(function(){
-    Route::get('dashboard', 'Admin\DashboardController@index')->name('dashboard');
+    Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard');
 
     // Agents
-    Route::get('agents', 'Admin\AgentsController@index')->name('agents');
-    Route::get('agents/create', 'Admin\AgentsController@create')->name('agents.create');
-    Route::post('agents', 'Admin\AgentsController@store')->name('agents.store');
-    Route::get('agents/{agent_id}', 'Admin\AgentsController@edit')->name('agents.edit');
-    Route::patch('agents/{agent_id}', 'Admin\AgentsController@update')->name('agents.update');
-    Route::get('agents/{agent_id}/delete', 'Admin\AgentsController@delete')->name('agents.delete');
+    Route::get('agents', [AgentsController::class, 'index'])->name('agents');
+    Route::get('agents/create', [AgentsController::class, 'create'])->name('agents.create');
+    Route::post('agents', [AgentsController::class, 'store'])->name('agents.store');
+    Route::get('agents/{agent_id}', [AgentsController::class, 'edit'])->name('agents.edit');
+    Route::patch('agents/{agent_id}', [AgentsController::class, 'update'])->name('agents.update');
+    Route::get('agents/{agent_id}/delete', [AgentsController::class, 'delete'])->name('agents.delete');
 });
 
 Auth::routes();

@@ -78,9 +78,9 @@ while continue_collecting:
             # Collect post
             # Check for chromedriver and User Data / google-chrome directory
             if os.path.isdir('User Data'):
-                pass
+                user_profile_dir = 'User Data'
             elif os.path.isdir('google-chrome'):
-                pass
+                user_profile_dir = 'google-chrome'
             else:
                 print('\n')
                 print(''.center(60, '#'))
@@ -88,11 +88,16 @@ while continue_collecting:
                 print(''.center(60, '#'))
                 print(
                     'Can\'t find Google chrome profile directory "User Data" or "google-chrome" in your application root path, please make sure you add the directory to your application root path\nYou can find your profile directory by opening new tab in Google chorme and type "chrome//:version" in your address bar, You will find your profile path beside the "Profile Path" sector.')
+                time.sleep(10)
                 exit()
 
+            browser_user_profile = input('Please enter your user profile name or leave it blank to use your default system profile: ')
+            if browser_user_profile == '':
+                browser_user_profile = 'Default'
+
             post_obj = Post(driver_path='driver/chromedriver',
-                            user_data_dir='/var/www/facebooker/public/automate/google-chrome',
-                            chrome_profile_name='Default').open_browser()
+                            user_data_dir=os.path.join(os.getcwd(), user_profile_dir),
+                            chrome_profile_name=browser_user_profile).open_browser()
             post_obj.scrape_url(post_link, 'post')
 
             # Setting collect type
