@@ -21,7 +21,7 @@ while not status:
     username = input('Enter username: ')
     password = getpass.getpass('Enter password: ')
     payload = {'username': username, 'password': password}
-    response = requests.post('http://ebusiness.com/api/login', data=payload, headers={'Accept': 'application/json'})
+    response = requests.post('http://139.59.187.102/api/login', data=payload, headers={'Accept': 'application/json'})
 
     if response.status_code == 200:
         status = True
@@ -107,7 +107,7 @@ while continue_collecting:
             # Adding user details to post_object.data
             post_obj.data.update({'agent_data': user})
             # Extracting data in CSV TODO::Continue extracting users as CSV
-            response = requests.post('http://ebusiness.com/api/search/batch/post', json=post_obj.data,
+            response = requests.post('http://139.59.187.102/api/search/batch/post', json=post_obj.data,
                                      headers={'Accept': 'application/json; charset=utf8',
                                               'Authorization': 'Bearer ' + access_token})
 
