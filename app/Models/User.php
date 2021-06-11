@@ -38,4 +38,13 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
+    /**
+     * Return user full name
+     *
+     * @return string
+     */
+    public function fullName()
+    {
+        return $this->first_name . ' ' . $this->last_name;
+    }
 }

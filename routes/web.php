@@ -5,6 +5,7 @@ use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Frontend\BatchSearchController;
 use App\Http\Controllers\Frontend\FbUsersController;
 use App\Http\Controllers\Frontend\HomeController;
+use App\Http\Controllers\MasterController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -49,10 +50,11 @@ Route::name('admin.')->prefix('admin')->middleware(['web', 'auth', 'is_admin'])-
     Route::get('agents', [AgentsController::class, 'index'])->name('agents');
     Route::get('agents/create', [AgentsController::class, 'create'])->name('agents.create');
     Route::post('agents', [AgentsController::class, 'store'])->name('agents.store');
-    Route::get('agents/{agent_id}', [AgentsController::class, 'edit'])->name('agents.edit');
-    Route::patch('agents/{agent_id}', [AgentsController::class, 'update'])->name('agents.update');
+    Route::get('agents/{agent_id}/edit', [AgentsController::class, 'edit'])->name('agents.edit');
+    Route::patch('agents/{agent_id}/edit', [AgentsController::class, 'update'])->name('agents.update');
     Route::get('agents/{agent_id}/delete', [AgentsController::class, 'delete'])->name('agents.delete');
 });
 
+Route::get('inactive_agent', [MasterController::class, 'inactive_agent_redirect'])->name('inactive.agent');
 Auth::routes();
 

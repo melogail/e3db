@@ -3,8 +3,12 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\AdminController;
+use App\Http\Requests\AgentsRequest;
 use App\Models\User;
-use Illuminate\Http\Request;
+use Illuminate\Contracts\Foundation\Application;
+use Illuminate\Contracts\View\Factory;
+use Illuminate\Http\RedirectResponse;
+use Illuminate\View\View;
 
 class AgentsController extends AdminController
 {
@@ -54,24 +58,16 @@ class AgentsController extends AdminController
 
     /**
      * Store agent to database
-     * @param Request $request
-     * @return \Illuminate\Http\RedirectResponse
+     * @param AgentsRequest $request
+     * @return RedirectResponse
      */
-    public function store(Request $request)
+    public function store(AgentsRequest $request)
     {
 
         /**
          * Logic
          */
-        $request->validate([
-            'first_name' => 'required',
-            'last_name' => 'required',
-            'email' => 'required|email',
-            'password' => 'required|confirmed|min:6',
-            'username' => 'required|unique:users',
-            'department' => 'required',
-            'role' => 'required',
-        ]);
+        $validated = $request->validated();
 
         // crypt password
         $request->merge(['password' => bcrypt($request->password)]);
@@ -87,27 +83,66 @@ class AgentsController extends AdminController
     /**
      * Edit agent data
      * @param $agent_id
+     * @return Application|Factory|View
      */
     public function edit($agent_id)
     {
+        /**
+         * Logic
+         */
+        $agent = User::findOrFail($agent_id);
 
+
+        /**
+         * Data
+         */
+        $this->data['page'] = 'Edit Agent ' . $agent->fullName();
+        $this->data['agent'] = $agent;
+
+        /**
+         * Return
+         */
+        return view('admin.agents.edit', $this->data);
     }
 
     /**
      * Save agent updated data
-     * @param Request $request
+     * @param AgentsRequest $request
+     * @param $id
+     * @return RedirectResponse
      */
-    public function update(Request $request)
+    public function update(AgentsRequest $request, $id)
     {
+        $validated = $request->validated();
 
+        $data = [
+            'first_name' => $request->first_name,
+            'last_name' => $request->last_name,
+            'username' => $request->username,
+            'email' => $request->email,
+            'department' => $request->department,
+            'role' => $request->role,
+            'active' => $request->active ?? null
+        ];
+
+        $agent = User::findOrFail($id);
+
+        $agent->update($data);
+
+        return redirect()->back()->with('success', '<p class="alert alert-success">Agent data updated successfully.</p>');
     }
 
     /**
      * Permanently delete agent
-     * @param $agent_id
+     * @param $id
+     * @return RedirectResponse
      */
-    public function delete($agent_id)
+    public function delete($id)
     {
+        $agent = User::findOrFail($id);
 
+        $agent->forceDelete();
+
+        return redirect()->back()->with('success', '<p class="alert alert-success">User deleted successfully.</p>');
     }
 }

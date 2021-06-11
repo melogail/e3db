@@ -37,8 +37,8 @@
                                                 @endif
                                             </td>
                                             <td>
-                                                <a href="#" class="btn btn-sm btn-primary btn-block">Edit</a>
-                                                <a href="#" class="btn btn-sm btn-danger btn-block">Delete</a>
+                                                <a href="{{route('admin.agents.edit', $agent->id)}}" class="btn btn-sm btn-primary btn-block">Edit</a>
+                                                <a href="{{route('admin.agents.delete', $agent->id)}}" class="btn btn-sm btn-danger btn-block">Delete</a>
                                             </td>
                                         </tr>
                                     @endforeach
