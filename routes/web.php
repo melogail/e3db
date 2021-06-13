@@ -47,12 +47,16 @@ Route::name('admin.')->prefix('admin')->middleware(['web', 'auth', 'is_admin'])-
     Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard');
 
     // Agents
-    Route::get('agents', [AgentsController::class, 'index'])->name('agents');
-    Route::get('agents/create', [AgentsController::class, 'create'])->name('agents.create');
-    Route::post('agents', [AgentsController::class, 'store'])->name('agents.store');
-    Route::get('agents/{agent_id}/edit', [AgentsController::class, 'edit'])->name('agents.edit');
-    Route::patch('agents/{agent_id}/edit', [AgentsController::class, 'update'])->name('agents.update');
-    Route::get('agents/{agent_id}/delete', [AgentsController::class, 'delete'])->name('agents.delete');
+    Route::middleware(['is_authorized'])->group(function () {
+        Route::get('agents', [AgentsController::class, 'index'])->name('agents');
+        Route::get('agents/create', [AgentsController::class, 'create'])->name('agents.create');
+        Route::post('agents', [AgentsController::class, 'store'])->name('agents.store');
+        Route::get('agents/{agent_id}/edit', [AgentsController::class, 'edit'])->name('agents.edit');
+        Route::patch('agents/{agent_id}/edit', [AgentsController::class, 'update'])->name('agents.update');
+        Route::get('agents/{agent_id}/delete', [AgentsController::class, 'delete'])->name('agents.delete');
+        // Agent Reports
+        Route::get('agents/report/{agent_id}', [AgentsController::class, 'report'])->name('agents.report');
+    });
 });
 
 Route::get('inactive_agent', [MasterController::class, 'inactive_agent_redirect'])->name('inactive.agent');

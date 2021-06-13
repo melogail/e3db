@@ -20,7 +20,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 mx-auto">
-                    <h3>Welcome Agent {{Auth::user()->first_name}}</h3>
+                    <h3>Welcome Agent {{ucfirst(Auth::user()->first_name)}}</h3>
                     <p>On this page you can download our <b>beta version 1.0</b> of the desktop based software <b>Facebook Data Collector</b>, which you
                         can use remotely to get Facebook users data. Also, by using our software you can collect a bulk
                     of users who commented or reacted on any particular post in a page or a group. Also, you will have the ability to get users joined a particular group.</p>

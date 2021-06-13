@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Carbon\Carbon;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
@@ -46,5 +47,15 @@ class User extends Authenticatable
     public function fullName()
     {
         return $this->first_name . ' ' . $this->last_name;
+    }
+
+    /**
+     * One-to-many relationship
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function log()
+    {
+        return $this->hasMany(SearchLog::class, 'user_id');
     }
 }

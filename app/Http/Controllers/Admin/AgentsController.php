@@ -5,13 +5,17 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\AdminController;
 use App\Http\Requests\AgentsRequest;
 use App\Models\User;
+use App\traits\AgentsReports;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Http\RedirectResponse;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\View\View;
 
 class AgentsController extends AdminController
 {
+    use AgentsReports;
+
     public function __construct()
     {
         parent::__construct();
@@ -44,12 +48,20 @@ class AgentsController extends AdminController
      */
     public function create()
     {
+        /**
+         * Logic
+         */
+        if (Auth::user()->role == 'superuser') {
+            $roles = ['moderator' => 'Moderator', 'editor' => 'Editor', 'supervisor' => 'Supervisor', 'admin' => 'Admin'];
+        } else if (Auth::user()->role == 'admin') {
+            $roles = ['moderator' => 'Moderator', 'editor' => 'Editor', 'admin' => 'Admin'];
+        }
 
         /**
          * Data
          */
         $this->data['page_title'] = 'Add New Agent';
-
+        $this->data['roles'] = $roles;
         /**
          * Return
          */
@@ -92,12 +104,19 @@ class AgentsController extends AdminController
          */
         $agent = User::findOrFail($agent_id);
 
+        if (Auth::user()->role == 'superuser') {
+            $roles = ['moderator' => 'Moderator', 'editor' => 'Editor', 'supervisor' => 'Supervisor', 'admin' => 'Admin'];
+        } else if (Auth::user()->role == 'admin') {
+            $roles = ['moderator' => 'Moderator', 'editor' => 'Editor', 'admin' => 'Admin'];
+        }
+
 
         /**
          * Data
          */
         $this->data['page'] = 'Edit Agent ' . $agent->fullName();
         $this->data['agent'] = $agent;
+        $this->data['roles'] = $roles;
 
         /**
          * Return

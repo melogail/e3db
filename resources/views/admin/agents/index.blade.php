@@ -38,7 +38,10 @@
                                             </td>
                                             <td>
                                                 <a href="{{route('admin.agents.edit', $agent->id)}}" class="btn btn-sm btn-primary btn-block">Edit</a>
-                                                <a href="{{route('admin.agents.delete', $agent->id)}}" class="btn btn-sm btn-danger btn-block">Delete</a>
+                                                <a href="{{route('admin.agents.report', $agent->id)}}" class="btn btn-sm btn-warning btn-block">Get Report</a>
+                                            @if($agent->role != 'superuser')
+                                                    <a href="{{route('admin.agents.delete', $agent->id)}}" class="btn btn-sm btn-danger btn-block">Delete</a>
+                                                @endif
                                             </td>
                                         </tr>
                                     @endforeach

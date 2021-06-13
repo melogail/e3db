@@ -38,7 +38,7 @@
 </div>
 <div class="form-group">
     <label for="role">Agent Role</label>
-    {!! Form::select('role', ['moderator' => 'Moderator', 'editor' => 'Editor', 'supervisor' => 'Supervisor', 'admin' => 'Admin'], null, ['placeholder' => '- Select Role -', 'class' => 'form-control', 'id' => 'role']); !!}
+    {!! Form::select('role', $roles, null, ['placeholder' => '- Select Role -', 'class' => 'form-control', 'id' => 'role']); !!}
 </div>
 <div class="form-group">
     <div class="form-check">

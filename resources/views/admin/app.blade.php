@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>E3mel Business Database | {{$page_title}}</title>
 
+    @yield('links')
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
     <!-- Font Awesome Icons -->
@@ -171,20 +172,22 @@
                                 <i class="right fas fa-angle-left"></i>
                             </p>
                         </a>
-                        <ul class="nav nav-treeview">
-                            <li class="nav-item">
-                                <a href="{{route('admin.agents')}}" class="nav-link">
-                                    <i class="far fa-circle nav-icon"></i>
-                                    <p>All Agents</p>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="{{route('admin.agents.create')}}" class="nav-link">
-                                    <i class="far fa-circle nav-icon"></i>
-                                    <p>Add Agents</p>
-                                </a>
-                            </li>
-                        </ul>
+                        @authorized(Auth::user())
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="{{route('admin.agents')}}" class="nav-link">
+                                        <i class="fa fa-user nav-icon"></i>
+                                        <p>All Agents</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="{{route('admin.agents.create')}}" class="nav-link">
+                                        <i class="fa fa-user-plus nav-icon"></i>
+                                        <p>Add Agents</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        @endauthorized
                     </li>
                 </ul>
             </nav>
@@ -251,5 +254,6 @@
 <script src="{{asset('admin/plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
 <!-- AdminLTE App -->
 <script src="{{asset('admin/js/adminlte.min.js')}}"></script>
+@yield('scripts')
 </body>
 </html>
