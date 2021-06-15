@@ -70,7 +70,7 @@ class GetUserDetails implements ShouldQueue
     public function handle()
     {
         // Allow only 10 tasks every 1 second.
-        Redis::throttle('getUsersDetails')->allow(1)->every(5)->then(function (){
+        Redis::throttle('getUsersDetails_' . Carbon::now()->timestamp)->allow(1)->every(5)->then(function (){
             foreach ($this->users as $user) {
                 $user = json_decode(json_encode($user, JSON_UNESCAPED_UNICODE));
 
