@@ -4142,3 +4142,5 @@
       Illuminate\Foundation\Console\Kernel::handle()
 [2021-06-08 11:49:57][23U8x7hyIe0EKkYgDIn6QpO5jNXYJc84] Processing: App\Jobs\GetUserDetails
 [2021-06-08 11:51:06][23U8x7hyIe0EKkYgDIn6QpO5jNXYJc84] Processed:  App\Jobs\GetUserDetails
+[2021-06-14 12:40:48][bX5foMBFZ8Lg90tco75BNYyO9D3lF5DR] Processing: App\Jobs\GetUserDetails
+[2021-06-14 12:41:36][bX5foMBFZ8Lg90tco75BNYyO9D3lF5DR] Processed:  App\Jobs\GetUserDetails

@@ -49,27 +49,17 @@ class BatchSearchController extends FrontendController
     }
 
     /**
-     * Sending the users details returned from queue.
+     * Receiving users IDs and Username(s) from API and send it to the
+     * queuing system.
      *
      * @param Request $request
-     * @return JsonResponse
+     * @return mixed
      */
-    public function UsersDetailsResponse(Request $request)
+    public function CollectFromGroup(Request $request)
     {
-        $data = null;
-        return gettype($this->userDetailsQueue);
+        // Calling GetUserDetails job and run queue in the background
+        GetUserDetails::dispatch($request->users, $request->agent_data, 'group');
 
-        // Get data from queue when queue is finished.
-        if ($this->userDetailsQueue != null) {
-            $data = $this->userDetailsQueue->getResponse();
-        }
-
-        if ($data != null) {
-            return response()->json($data, 200, ['Content-Type' => 'application/json;charset=UTF-8', 'Charset' => 'utf-8'],
-            JSON_UNESCAPED_UNICODE);
-        }
-
-        return response()->json(['message' => 'Error, no data set'], 401, ['Content-Type' => 'application/json;charset=UTF-8', 'Charset' => 'utf-8'],
-            JSON_UNESCAPED_UNICODE);
+        return response("Data sent successfully.\nProcessing your CSV file, this process may take a while.\nAn email with your attachment will be sent.\nThank for you patience...");
     }
 }

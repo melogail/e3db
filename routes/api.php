@@ -20,6 +20,7 @@ use Illuminate\Support\Facades\Route;
 });*/
 Route::name('frontend.')->middleware(['auth:sanctum'])->group(function(){
     Route::post('/search/batch/post', 'Frontend\BatchSearchController@CollectFromPost')->name('search.batch.post.collect');
+    Route::post('/search/batch/group', 'Frontend\BatchSearchController@CollectFromGroup')->name('search.batch.group.collect');
     Route::post('/search/batch/response', 'Frontend\BatchSearchController@UsersDetailsResponse')->name('search.batch.response');
 });
 

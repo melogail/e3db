@@ -9,6 +9,14 @@ use Illuminate\Http\Request;
 
 trait AgentsReports
 {
+
+    /**
+     * Get user report
+     *
+     * @param Request $request
+     * @param $agent_id
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
     public function report(Request $request, $agent_id)
     {
         $agent = User::findOrFail($agent_id);

@@ -146,7 +146,7 @@ class Group(Scrape):
             EC.presence_of_all_elements_located(
                 (By.XPATH, '//div[contains(@id, "member_")]'))
         )
-        print(len(users_el))
+        print("Number of users collected", len(users_el))
 
         # loop through each element and extract id and user name
         for el in users_el:
@@ -163,7 +163,6 @@ class Group(Scrape):
                     print('cannot find user name')
 
         # Insert users data to data object
-        print(users)
         self.insert_data({'users': users})
 
         return self

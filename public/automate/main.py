@@ -21,7 +21,7 @@ while not status:
     username = input('Enter username: ')
     password = getpass.getpass('Enter password: ')
     payload = {'username': username, 'password': password}
-    response = requests.post('http://139.59.187.102/api/login', data=payload, headers={'Accept': 'application/json'})
+    response = requests.post('http://ebusiness.com/api/login', data=payload, headers={'Accept': 'application/json'})
 
     if response.status_code == 200:
         status = True
@@ -51,7 +51,7 @@ while continue_collecting:
         print('What do you want to scrape?')
         print("[1] Post")
         print("[2] Group")
-        search_type = int(input("Choose an option: "))
+        search_type = int(input("Choose an option [1] or [2]: "))
 
         # if post, ask if want to scrape comments or reacts
         if search_type == 1:
@@ -66,7 +66,7 @@ while continue_collecting:
                 print("\nWhat would you like to collect from this post?")
                 print("[1] Users in comments")
                 print("[2] Users in reacts")
-                collect_type = int(input("Choose an option: "))
+                collect_type = int(input("Choose an option [1] or [2]: "))
 
                 # Validate user input
                 if collect_type == 1 or collect_type == 2:
@@ -111,10 +111,16 @@ while continue_collecting:
 
             # Adding user details to post_object.data
             post_obj.data.update({'agent_data': user})
-            # Extracting data in CSV TODO::Continue extracting users as CSV
-            response = requests.post('http://139.59.187.102/api/search/batch/post', json=post_obj.data,
+            response = requests.post('http://ebusiness.com/api/search/batch/group', json=post_obj.data,
                                      headers={'Accept': 'application/json; charset=utf8',
                                               'Authorization': 'Bearer ' + access_token})
+            if response.status_code != 200:
+                print(" Error! An error occurred while getting response please contact your administrator ".center(60, '#'))
+                time.sleep(10)
+            else:
+                print(" Data collected successfully ".center(60, "#"))
+                print(response.text)
+                print("".center(60, "#"))
 
         elif search_type == 2:
             flag = True
@@ -126,16 +132,50 @@ while continue_collecting:
             # Group link
             group_link = input("\nPlease insert group link: ")
 
+            # Collect post
+            # Check for chromedriver and User Data / google-chrome directory
+            if os.path.isdir('User Data'):
+                user_profile_dir = 'User Data'
+            elif os.path.isdir('google-chrome'):
+                user_profile_dir = 'google-chrome'
+            else:
+                print('\n')
+                print(''.center(60, '#'))
+                print(' Error! Can\'t find Google chrome user profile! '.center(60, '#'))
+                print(''.center(60, '#'))
+                print(
+                    'Can\'t find Google chrome profile directory "User Data" or "google-chrome" in your application root path, please make sure you add the directory to your application root path\nYou can find your profile directory by opening new tab in Google chorme and type "chrome//:version" in your address bar, You will find your profile path beside the "Profile Path" sector.')
+                time.sleep(10)
+                exit()
+
+            browser_user_profile = input(
+                'Please enter your user profile name or leave it blank to use your default system profile: ')
+            if browser_user_profile == '':
+                browser_user_profile = 'Default'
+
             # Collect group
             group_obj = Group(driver_path='driver/chromedriver',
-                              user_data_dir='/var/www/facebooker/public/automate/google-chrome',
-                              chrome_profile_name='Default').open_browser()
+                              user_data_dir=os.path.join(os.getcwd(), user_profile_dir),
+                              chrome_profile_name=browser_user_profile).open_browser()
             group_obj.scrape_url(group_link, 'group')
 
             group_obj.get_group_information().scrape_members().scrape_other_members().collect_users_data()
             group_obj.driver.quit()
 
             # Collect group
+            # Adding user details to group_obj.data
+            group_obj.data.update({'agent_data': user})
+            response = requests.post('http://ebusiness.com/api/search/batch/group', json=group_obj.data,
+                                     headers={'Accept': 'application/json; charset=utf8',
+                                              'Authorization': 'Bearer ' + access_token})
+            print(response.status_code)
+            if response.status_code != 200:
+                print(" Error! An error occurred while getting response please contact your administrator ".center(60, '#'))
+                time.sleep(10)
+            else:
+                print(" Data collected successfully ".center(60, "#"))
+                print(response.text)
+                print("".center(60, "#"))
 
     answer = input('Do you like to collect more data? [Y][n]')
     while answer != 'y' and answer != 'Y' and answer != 'n':
