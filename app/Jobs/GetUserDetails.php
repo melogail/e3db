@@ -22,12 +22,14 @@ class GetUserDetails implements ShouldQueue
 {
     use Dispatchable, InteractsWithQueue, Queueable, SerializesModels, UsersDetails;
 
+
     /**
      * Holds users array got from request.
      *
      * @var FbUser
      */
     protected $users;
+
 
     /**
      * Authenticated agent
@@ -36,6 +38,7 @@ class GetUserDetails implements ShouldQueue
      */
     protected $agent;
 
+
     /**
      * Search type "group" or "post"
      *
@@ -43,12 +46,30 @@ class GetUserDetails implements ShouldQueue
      */
     protected $search_type;
 
+
+    /**
+     * CSV file to be sent
+     *
+     * @var null
+     */
+    protected $file = null;
+
+
+    /**
+     * CSV file name to be sent
+     *
+     * @var null
+     */
+    protected $file_name = null;
+
+
     /**
      * Holds the users details.
      *
      * @var
      */
     protected $result = [];
+
 
     /**
      * Create a new job instance.
@@ -62,6 +83,7 @@ class GetUserDetails implements ShouldQueue
         $this->search_type = $search_type;
     }
 
+
     /**
      * Execute the job.
      *
@@ -69,43 +91,35 @@ class GetUserDetails implements ShouldQueue
      */
     public function handle()
     {
-        // Allow only 10 tasks every 1 second.
-        Redis::throttle('getUsersDetails_' . Carbon::now()->timestamp)->allow(1)->every(5)->then(function (){
-            foreach ($this->users as $user) {
-                $user = json_decode(json_encode($user, JSON_UNESCAPED_UNICODE));
+        foreach ($this->users as $user) {
+            $user = json_decode(json_encode($user, JSON_UNESCAPED_UNICODE));
 
-                if ($user->user_id != null) {
-                    $u = FbUser::where('fb_id', $user->user_id)->first(['fb_id', 'user_name', 'mobile', 'name', 'position', 'location', 'hometown']);
-                } else if ($user->user_username != null) {
-                    $u = FbUser::where('user_name', $user->user_username)->first(['fb_id', 'user_name', 'mobile', 'name', 'position', 'location', 'hometown']);
-                }
-
-                if ($u != null) {
-                    // Adding collections to array for extracting to CSV
-                    array_push($this->result, $u->toArray());
-                    SearchLog::create(['user_id' => $this->agent['id'], 'type' => $this->search_type, 'search_query' => $u->fb_id ?? $u->user_name]);
-                }
+            if ($user->user_id != null) {
+                $u = FbUser::where('fb_id', $user->user_id)->first(['fb_id', 'user_name', 'mobile', 'name', 'position', 'location', 'hometown']);
+            } else if ($user->user_username != null) {
+                $u = FbUser::where('user_name', $user->user_username)->first(['fb_id', 'user_name', 'mobile', 'name', 'position', 'location', 'hometown']);
             }
 
-            $file_name = $this->agent['id'] . '_'.Carbon::now()->timestamp . '.xlsx';
-            $file = Excel::store((new FbUsersExport($this->result)), 'exports/' . $file_name);
-
-            if ($file) {
-                $to_name = $this->agent['first_name'] . ' ' . $this->agent['last_name'];
-                $to_email = $this->agent['email'];
-                $email_data = ['name' => $this->agent['first_name'] . ' ' . $this->agent['last_name'], 'body' => 'Kindly find your attached CSV file.'];
-                Mail::send('emails/confirm', $email_data, function($message) use ($to_name, $to_email, $file_name){
-                    $message->to($to_email, $to_name)->subject('Facebook users data CSV file');
-                    $message->from('noreply@e3businessdatabase.com', 'E3mel Business Database');
-                    $message->attach(storage_path('app/exports/' . $file_name));
-                });
+            if ($u != null) {
+                // Adding collections to array for extracting to CSV
+                array_push($this->result, $u->toArray());
+                SearchLog::create(['user_id' => $this->agent['id'], 'type' => $this->search_type, 'search_query' => $u->fb_id ?? $u->user_name]);
             }
+        }
 
-        }, function(){
+        $file_name = $this->agent['id'] . '_'.Carbon::now()->timestamp . '.xlsx';
+        $file = Excel::store((new FbUsersExport($this->result)), 'exports/' . $file_name);
 
-            // Could not obtain lock; this job will be re-queued.
-            return $this->release(2);
-        });
+        if ($file) {
+            $to_name = $this->agent['first_name'] . ' ' . $this->agent['last_name'];
+            $to_email = $this->agent['email'];
+            $email_data = ['name' => $this->agent['first_name'] . ' ' . $this->agent['last_name'], 'body' => 'Kindly find your attached CSV file.'];
+            Mail::send('emails/confirm', $email_data, function($message) use ($to_name, $to_email, $file_name){
+                $message->to($to_email, $to_name)->subject('Facebook users data CSV file');
+                $message->from('noreply@e3businessdatabase.com', 'E3mel Business Database');
+                $message->attach(storage_path('app/exports/' . $file_name));
+            });
+        }
     }
 
     /**
