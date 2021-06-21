@@ -27,6 +27,8 @@
                     <p>Before using the software please read carefully the <b>Software Documentation</b> file withing the downloaded directory.</p>
                     <h4>Download Now</h4>
                     <p>To download the software please <a href="{{route('frontend.download.facebook_collector.download')}}">Click here</a>.</p>
+                    <h4>Documentation</h4>
+                    <p>Read software documentation? <a href="{{route('frontend.download.facebook_collector.documentation')}}">Click here</a>.</p>
                 </div>
             </div>
         </div>

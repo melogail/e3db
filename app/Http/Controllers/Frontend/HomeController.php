@@ -35,7 +35,7 @@ class HomeController extends FrontendController
     {
         $this->data['page_title'] = 'Download Facebook Collector Software';
 
-        return view('download_facebook_collector', $this->data);
+        return view('facebook_collector.download', $this->data);
     }
 
     /**
@@ -46,5 +46,24 @@ class HomeController extends FrontendController
     public function downloadFb()
     {
         return response()->download(storage_path('app/downloads/Facebook Collector.zip'));
+    }
+
+    /**
+     * Documentation page
+     *
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function downloadFacebookCollectorDocumentation()
+    {
+        /**
+         * Data
+         */
+        $this->data['page_title'] = 'Facebook Collector Documentation';
+
+
+        /**
+         * Return
+         */
+        return view('facebook_collector.documentation', $this->data);
     }
 }

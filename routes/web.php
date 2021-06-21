@@ -36,6 +36,7 @@ Route::name('frontend.')->middleware(['web', 'auth'])->group( function () {
     // Download Facebook Collector Tool Link
     Route::get('downloads/facebook-collector', [HomeController::class, 'downloadFacebookCollector'])->name('downloads.facebook_collector');
     Route::get('downloads/facebook-collector/download', [HomeController::class, 'downloadFb'])->name('download.facebook_collector.download');
+    Route::get('downloads/facebook-collector/documentation', [HomeController::class, 'downloadFacebookCollectorDocumentation'])->name('download.facebook_collector.documentation');
 });
 
 /*
