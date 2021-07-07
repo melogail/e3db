@@ -32,13 +32,25 @@ class AuthController extends Controller
 
             $user = User::where('username', $credentials['username'])->first();
 
-            if ( !Hash::check($credentials['password'], $user->password, [])) {
+            if (!Hash::check($credentials['password'], $user->password, [])) {
 
                 throw new \Exception('Exception in login');
 
             }
 
             $tokenResult = $user->createToken('authToken')->plainTextToken;
+
+
+            if (!$user->active) {
+                return response()->json([
+
+                    'status' => 401,
+
+                    'message' => 'Unauthorized, Agent account is suspended, please contact your administrator'
+
+                ], 401)->header('Content-Type', 'application/json');
+
+            }
 
             return response()->json([
 
